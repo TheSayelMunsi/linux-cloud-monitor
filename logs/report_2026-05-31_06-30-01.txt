@@ -1,0 +1,46 @@
+=========================
+ SERVER HEALTH REPORT 
+=========================
+Hostname: ip-172-31-39-239
+Date: Sun May 31 06:30:01 UTC 2026
+Uptime: up 1 hour, 17 minutes
+
+Disk Usage
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  2.5G  4.3G  38% /
+
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           911Mi       517Mi        84Mi       2.7Mi       490Mi       393Mi
+Swap:             0B          0B          0B
+
+Current User: ubuntu
+
+CPU Usage:
+%Cpu(s):  0.0 us,  0.0 sy, 42.9 ni, 47.6 id,  0.0 wa,  0.0 hi,  0.0 si,  9.5 st 
+
+Top Processes:
+    PID COMMAND         %CPU
+  11769 apt-check       98.9
+   2316 unattended-upgr 24.2
+  11643 unattended-upgr  8.4
+  11551 systemd-resolve  1.8
+  11552 systemd-udevd    1.0
+
+SSH Service Status:
+inactive
+
+CRON Service Status:
+active
+
+Open Ports:
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*          
+udp   UNCONN 0      0              127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0      172.31.39.239%ens5:68        0.0.0.0:*          
+udp   UNCONN 0      0                   [::1]:323          [::]:*          
+tcp   LISTEN 0      4096           127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096              0.0.0.0:22        0.0.0.0:*          
+tcp   LISTEN 0      4096                 [::]:22           [::]:*          

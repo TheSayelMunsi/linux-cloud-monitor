@@ -1,0 +1,28 @@
+
+Report saved successfully:
+logs/report_2026-05-31_06-25-01.txt
+Deleted logs older than 7 days
+Remaining reports: 5
+
+Running alert checks...
+Current Disk Usage: 31%
+Disk usage normal
+RAM Usage: 42%
+RAM normal
+CPU Usage: 5%
+./alerts.sh: line 36: [: 4.8: integer expression expected
+CPU normal
+
+Report saved successfully:
+logs/report_2026-05-31_06-30-01.txt
+Deleted logs older than 7 days
+Remaining reports: 6
+
+Running alert checks...
+Current Disk Usage: 38%
+Disk usage normal
+RAM Usage: 57%
+RAM normal
+CPU Usage: 56%
+./alerts.sh: line 36: [: 56.5: integer expression expected
+CPU normal
